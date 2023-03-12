@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+
+}
+
+
+
+.logo{
+    width: 200px;
+    height: auto;
+}
+
+.navegacao a {
+    font-size:17px;
+    padding: 50px;
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+    
+
+
+
+}
+.navegacao a:hover{
+    font-size: 30px;
+    color: gold;
+
+}
+
+.botao-login{
+    background-color: gold;
+    width: 150px;
+    height: 70px;
+    border: 2;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: .5s;
+    
+    
+}
+
+.botao-login a{
+    color: black;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.botao-login:hover{
+    background-color: white;
+}
+
+.caixa-maiora{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+    width: 350px;
+    height: 500px;
+    padding: 20px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+}
+
+.titulo-caixa{
+    
+    
+    
+    
+}
+
+.email{
+    background-color: transparent;
+    margin-bottom: 15px;
+    border: transparent;
+    border-bottom: 3px solid gold;
+    width: 290px;
+    height: 40px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    margin-left: 30px;
+    outline: 0;  
+    
+
+
+}
+
+.senha{
+    background-color: transparent;
+    margin-bottom: 15px;
+    border: transparent;
+    border-bottom: 3px solid gold;
+    width: 290px;
+    height: 40px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    margin-left: 30px;
+    outline: 0;
+}
+
+
+.logo-email{
+    font-size: 22px;
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.logo-senha{
+    font-size: 22px;
+    margin-left: 10px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.caixa-maior{
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255, 255 ,255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 30px rgb(0 0 0 / 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.felipe{
+    position: fixed;
+    top: 10px;
+    color: white;
+    
+
+}
+
+.sem-conta{
+    color: white;
+    position: fixed;
+    bottom: 50px;
+    display: flex;
+    left: 45px;
+    font-size: 18px;
+}
+
+
+.criar{
+    color: gold;
+    position: fixed;
+    right: 50px;
+    text-decoration: none;
+}
+
+.usuario{
+    background-color: transparent;
+    margin-bottom: 15px;
+    border: transparent;
+    border-bottom: 3px solid gold;
+    width: 290px;
+    height: 40px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    margin-left: 30px;
+    outline: 0;
+
+}
+
+.logo-pessoa{
+    font-size: 22px;
+    margin-left: 10px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
