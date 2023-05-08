@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comme', sans-serif;
+}
+
+body{
+    background-image: url(floresta_inicio.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa{
+    position: relative;
+    top: 200px;
+    padding: 40px;
+    width: 500px;
+    height:500px;   
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.login h3{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.nome{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.nome ion-icon{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.nome input{
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+}
+
+.email{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.email ion-icon{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.email input{
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+}
+
+.senha{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.senha ion-icon{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.senha input{
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+}
+
+.btn{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.btn a{
+    width:100%;
+    height:50px;
+    border: none;
+    border-radius: 20px;
+    transition: .4s;
+    text-decoration: none;
+    color: black;
+    padding: 15px 0 0 0;
+    font-size: 20px;
+}
+
+.btn a:hover{
+    background-color: rgba(46, 112, 46, 0.76);
+    color: white;
+}
+
+.registre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.registre a{
+    color: black;
+}
+
