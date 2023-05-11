@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comme', sans-serif;
+}
+
+body{
+    background-image: url(nascerdosol.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.navegacao{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.61);
+    padding:0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegacao ul li{
+    list-style: none;
+}
+
+.navegacao ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.navegacao ul li a:hover{
+    background-color: rgb(40, 83, 40);
+}
+
+.main{
+    margin-top: 70px;
+    padding: 0 13%;
+}
+
+.main h1{
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+
+.informacoes{
+    margin-bottom: 50px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding:20px;    
+}
+
+.titulo h2{
+    text-align: center;
+    color: rgb(40, 48, 83);
+    font-size: 40px;
+}
+
+.informacoes p{
+    padding:  5px 20px;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.informacoes h1{
+    color: rgb(40, 83, 40);
+
+}
+
+
+
